@@ -1,0 +1,50 @@
+.order--sucsess--message {
+   // padding: clamp(40px, 6vw, 100px) 15px;
+
+    .order--message--container {
+        max-width: 480px;
+        padding:  0 15px;
+        min-height: calc(100vh - calc(clamp(40px, 6vw, 100px) * 2));
+        width: 100%;
+        @include flex();
+        margin: 0 auto;
+        .order--message--body {
+            padding: clamp(25px, 3.1vw, 50px);
+            border: 7px solid $blue;
+            border-radius: 30px;
+            @include flex();
+            flex-direction: column;
+            text-align: center;
+            @media (max-width:767px) {
+                padding: 20px 15px;
+            }
+            .sucsess--check {
+                width: 120px;
+                aspect-ratio: 1;
+                border: 7px solid $yellow;
+                border-radius: 50%;
+                @include flex();
+                @media (max-width:767px) {
+                    width: 80px;
+                }
+                img {
+                    width: 50%;
+                }
+            }
+            .ended--check{
+                border: 7px solid black;
+            }
+            h3 {
+                margin-top: 30px;
+                font-weight: 500;
+                font-size: clamp(20px,1.5vw, 24px);
+            }
+            a {
+                margin-top: 15px;
+                max-height: 30px;
+                line-height: 1;
+                min-width: 170px;
+            }
+        }
+    }
+}

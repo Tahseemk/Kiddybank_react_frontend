@@ -1,0 +1,75 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+    // scroll-behavior: smooth;
+}
+ body {
+    overflow: hidden;
+    position: relative;
+    color: $black;
+    &.other--template {
+        padding-top: 155px;
+        @media (max-width:1024px) {
+            padding-top: 115px;
+        }
+        @media (max-width:767px) {
+            padding-top: 80px;
+        }
+    }
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+div {
+    width: 100%;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: $transition;
+    color: $black;
+}
+p {
+    color: $text-color;
+}
+img {
+    max-width: 100%;
+}
+section {
+    position: relative;
+}
+input , select , textarea, button {
+    outline: none;
+    border: none;
+}
+button {
+    cursor: pointer;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input , textarea , select {
+    font-size: 16px; 
+    font-family: "poppins";
+}
+

@@ -1,1 +1,0 @@
-export const phoneRegExp = /^[0-9]{7,10}$/;
