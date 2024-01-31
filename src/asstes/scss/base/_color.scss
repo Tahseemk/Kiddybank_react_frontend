@@ -1,0 +1,15 @@
+body {
+    color: $black;
+}
+p {
+    color: $text-color;
+}
+
+a {
+    color: $black;
+    &:hover {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
