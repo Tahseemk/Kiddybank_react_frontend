@@ -28,7 +28,7 @@ const store = configureStore({
     serializableCheck: {
       ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
     },
-  }).concat(logger),
+  }),
  // middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 })
 
