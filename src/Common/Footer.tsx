@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { authAxios } from "../config/config";
 import { toast } from "react-toastify";
 import IsLoadingHOC from "./IsLoadingHOC";
-// import { QRCode } from "react-qr-svg";
-import QRCode from "react-qr-code";
 import { Link } from "react-router-dom";
 import { trimObjValues, validateEmail } from "../Helper";
 
