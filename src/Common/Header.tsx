@@ -206,7 +206,7 @@ const Header = () => {
             </div>
             <div className="login--cart--container">
               <div className="login--cart--wrapper">
-                <div className="cart">
+                {/* <div className="cart">
                   <div className="cart--wrapper">
                     <div className="cart--icon">
                       <span
@@ -220,8 +220,8 @@ const Header = () => {
                       />
                     </div>
                   </div>
-                </div>
-                <div className="notifications">
+                </div> */}
+                {/* <div className="notifications">
                   <div className="notifications--wrapper">
                     <span
                       className={
@@ -240,10 +240,10 @@ const Header = () => {
                       alt=""
                     />
                   </div>
-                </div>
+                </div> */}
 
                 <div className="login--btn--wrapper">
-                  <a href="#" className="login--btn">
+                  <a href="#" className="login--btn text-success">
                     <img
                       src={require("../asstes/image/Profile.svg").default}
                       alt=""
@@ -263,7 +263,7 @@ const Header = () => {
                   <ul>
                     {!accessToken && (
                       <li>
-                        <a className=" form--popup login--popup ">
+                        <a className=" form--popup login--popup text-secondary">
                           <span className="icons">
                             <img
                               src={require("../asstes/image/Login.svg").default}
@@ -276,7 +276,7 @@ const Header = () => {
                     )}
                     {!accessToken && (
                       <li>
-                        <a className="form--popup signin--popup">
+                        <a className="form--popup signin--popup text-secondary">
                           <span className="icons">
                             <img
                               src={

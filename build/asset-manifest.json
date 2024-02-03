@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6a4fd05.css",
-    "main.js": "/static/js/main.e88b3d9f.js",
+    "main.css": "/static/css/main.953a8927.css",
+    "main.js": "/static/js/main.71cf78a2.js",
     "static/media/Nioicon.svg": "/static/media/Nioicon.3a683679c4d0ec1b9f41.svg",
     "static/media/contact_us.jpg": "/static/media/contact_us.2cf5d1e565a590a52579.jpg",
     "static/media/about--banner.jpg": "/static/media/about--banner.d1db0949320e4ef40522.jpg",
@@ -19,19 +19,17 @@
     "static/media/Login.svg": "/static/media/Login.df0d575ae56c238610547a5d6c237e0c.svg",
     "static/media/Logout.svg": "/static/media/Logout.b63b2a2555c81981c40e58fa44cc90f9.svg",
     "static/media/Profile.svg": "/static/media/Profile.118387f3de89f24f8ff999836c5e2975.svg",
-    "static/media/notification--icon.svg": "/static/media/notification--icon.91424886b501cf071ace9106318e8aa8.svg",
-    "static/media/cart.svg": "/static/media/cart.7012a7319fb734794f6039e7bd13e734.svg",
     "static/media/house--1.svg": "/static/media/house--1.4d4efe81029c036214fd24bcda40bed7.svg",
     "static/media/black--arrow.svg": "/static/media/black--arrow.45e4350aec2ef0454f85.svg",
     "static/media/calender--icon.svg": "/static/media/calender--icon.a6112700bae7a27b6558.svg",
     "static/media/arrow--thin.svg": "/static/media/arrow--thin.07cd6b677027cd85f255.svg",
     "static/media/Yellow.svg": "/static/media/Yellow.a3d138cd392930648ad2.svg",
     "static/media/blue.svg": "/static/media/blue.d5ed67a1c4d5a7f0bd02.svg",
-    "main.d6a4fd05.css.map": "/static/css/main.d6a4fd05.css.map",
-    "main.e88b3d9f.js.map": "/static/js/main.e88b3d9f.js.map"
+    "main.953a8927.css.map": "/static/css/main.953a8927.css.map",
+    "main.71cf78a2.js.map": "/static/js/main.71cf78a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6a4fd05.css",
-    "static/js/main.e88b3d9f.js"
+    "static/css/main.953a8927.css",
+    "static/js/main.71cf78a2.js"
   ]
 }
